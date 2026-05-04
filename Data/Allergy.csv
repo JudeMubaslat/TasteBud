@@ -1,0 +1,23 @@
+﻿ingredient ,allergy
+milk ,dairy
+cheese,dairy
+butter,dairy
+cream,dairy
+yogurt,dairy
+egg,egg
+mayonnaise,egg
+flour,gluten
+bread,gluten
+pasta,gluten
+breadcrumbs,gluten
+peanut,nuts
+almond,nuts
+cashew,nuts
+walnut,nuts
+soy sauce,soy
+tofu,soy
+shrimp,shellfish
+crab,shellfish
+lobster,shellfish
+fish,seafood
+chicken,poultry
