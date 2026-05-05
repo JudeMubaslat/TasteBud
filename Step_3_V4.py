@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain.chat_models import init_chat_model
 from Tools_V7 import get_ingredient_nutrition, retrieve_food_info, classify_dietary_restrictions
@@ -5,8 +6,7 @@ from langchain_openai import OpenAIEmbeddings # RAG: embeddings model
 from langchain_community.vectorstores import FAISS # RAG: vector store
 
 # Load environment variables
-import streamlit as st
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+load_dotenv()
 
 #Initialize OpenAI client
 MODEL_LLM = "openai:gpt-4o-mini"
