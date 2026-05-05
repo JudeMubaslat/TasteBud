@@ -3,6 +3,8 @@ __pycache__/
 *.pyc
 .env
 
+Previous Steps
+
 # Virtual environment
 .venv/
 
@@ -11,6 +13,5 @@ build_faiss_index.py
 CC_app.py
 ChefChat_step_1.py
 
-# Streamlit
 .streamlit/secrets.toml
-.streamlit/.streamlit/secrets.toml
+
